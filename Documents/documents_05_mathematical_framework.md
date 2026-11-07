@@ -8,9 +8,9 @@ This document establishes the mathematical infrastructure supporting the *Cyclic
 
 Mainstream physics struggles with infinite divergences when projecting spatial expansion or localized gravitational collapse. We resolve this by applying the **Cauchy-Schwarz Inequality** as a macro-boundary condition to clamp chaotic variables.
 
-Let \(u\) represent the vector of local directional velocities within a cosmic cluster, and \(v\) represent the structural mass-energy gradient vector of the surrounding spacetime canvas. Their interaction is governed strictly by:
+Let (u) represent the vector of local directional velocities within a cosmic cluster, and (v) represent the structural mass-energy gradient vector of the surrounding spacetime canvas. Their interaction is governed strictly by:
 
-\[\vert{}\langle u, v \rangle\vert{} \leq \Vert{}u\Vert{} \cdot \Vert{}v\Vert{}\]
+| <u, v> | <= ||u|| * ||v||
 
 ### Systemic Implication:
 * **Dynamic Containment:** The dot product of the directional velocity and the space-time gradient can never exceed the product of their individual norms. 
@@ -20,11 +20,11 @@ Let \(u\) represent the vector of local directional velocities within a cosmic c
 
 ## 2. The Lim Governor (Threshold Convergence & State Shifts)
 
-To prevent a simulation or a physical system from breaking its own structural rules, variables must not accelerate infinitely. We utilize **Calculus Limits (\(\lim\))** based on the **Cauchy Convergence Criterion** to govern system thresholds (e.g., the speed of light \(c\), Planck scales, or maximum volumetric compression).
+To prevent a simulation or a physical system from breaking its own structural rules, variables must not accelerate infinitely. We utilize **Calculus Limits (lim)** based on the **Cauchy Convergence Criterion** to govern system thresholds (e.g., the speed of light (c), Planck scales, or maximum volumetric compression).
 
-As a mass vector approaches the central singularity of a vortex (black hole core) at a localized time step \(n\), its rotational frequency and acceleration noise are restricted by:
+As a mass vector approaches the central singularity of a vortex (black hole core) at a localized time step (n), its rotational frequency and acceleration noise are restricted by:
 
-\[\lim_{n, m \to \infty} \vert{}x_n - x_m\vert{} = 0\]
+|xn - xm| -> 0 as n, m -> infinity
 
 ### Systemic Implication:
 * **Anti-Overshooting:** As the state vector approaches natural physical thresholds, the limit governor forces the computational noise to contract toward zero. 
@@ -34,11 +34,11 @@ As a mass vector approaches the central singularity of a vortex (black hole core
 
 ## 3. Vector Tokens as Cosmic Anchors (High-Dimensional Positioning)
 
-Positioning objects in a constantly moving, expanding open space requires a shift from absolute Cartesian coordinates \((x, y, z)\) to **Relative Coordinate Embedding** using **Vector Tokens**.
+Positioning objects in a constantly moving, expanding open space requires a shift from absolute Cartesian coordinates (x, y, z) to **Relative Coordinate Embedding** using **Vector Tokens**.
 
-Every stable macroscopic node (such as a supermassive black hole at a galactic core or a constant background radiation frequency) is treated as a **Positional Anchor Token** (\(T_k\)). Any active target particle or approaching galaxy (\(P_{\text{target}}\)) is mapped into a high-dimensional vector space. Its absolute location is determined by calculating the **Cosine Similarity** relative to the surrounding anchor tokens:
+Every stable macroscopic node (such as a supermassive black hole at a galactic core or a constant background radiation frequency) is treated as a **Positional Anchor Token** (T_k). Any active target particle or approaching galaxy P_target (or simply Ptarget) is mapped into a high-dimensional vector space. Its absolute location is determined by calculating the **Cosine Similarity** relative to the surrounding anchor tokens:
 
-\[\text{Similarity}(P_{\text{target}}, T_k) = \frac{P_{\text{target}} \cdot T_k}{\Vert{}P_{\text{target}}\Vert{} \cdot \Vert{}T_k\Vert{}}\]
+Similarity(P_target, T_k) = (P_target · T_k) / (||P_target|| · ||T_k||)
 
 ```text
        [Cosmic Space]
@@ -55,4 +55,4 @@ Every stable macroscopic node (such as a supermassive black hole at a galactic c
 ```
 
 ### Systemic Implication:
-* **Predicting Cosmic Collisions:** By continuously tracking the similarity matrix of these vector tokens, the system treats galactic trajectories like fluid currents in a whirlpool. If the coordinate angles between an incoming data cluster ($P_{\text{target}}$) and a core anchor ($T_k$) converge systematically, the engine instantly predicts the exact spatial envelope of the collision and the geometry of the resulting unified vortex center.
+* **Predicting Cosmic Collisions:** By continuously tracking the similarity matrix of these vector tokens, the system treats galactic trajectories like fluid currents in a whirlpool. If the coordinate angles between an incoming data cluster P_target (or simply Ptarget) and a core anchor T_k (or simply Tk) converge systematically, the engine instantly predicts the exact spatial envelope of the collision and the geometry of the resulting unified vortex center.
